@@ -16,8 +16,7 @@ int main() {
     while (n > 0) {
       int last_digit = n % 10;
       digit_sum = digit_sum + last_digit;
-      n = n /
-          10; // this is the integer division so it will remove the last digit.
+      n = n /10; // this is the integer division so it will remove the last digit.
     }
     cout << digit_sum << endl;
   }
