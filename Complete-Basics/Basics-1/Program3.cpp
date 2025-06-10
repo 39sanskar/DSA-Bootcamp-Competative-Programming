@@ -1,6 +1,5 @@
 /*
 
-   // Important Program
 Input Format
 You will be given two positive integers, a and b (a <= b), separated by a
 newline. Output Format For each integer in the inclusive interval : If(1 <= n <=
@@ -66,4 +65,6 @@ int main() {
       cout << "odd" << endl;
     }
   }
+
+  return 0;
 }
