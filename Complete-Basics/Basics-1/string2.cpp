@@ -1,23 +1,12 @@
-#include <iostream>
-using namespace std;
+ #include <iostream>
+ using namespace std;
 
-int main(){
+ int main(){
   string str1, str2;
   getline(cin, str1);
   getline(cin, str2);
   cout << str1 << endl;
   cout << str2 << endl;
-  
-  // Cretae another Program 
-  
-  int t;
-  cin >> t;
-  while(t--){
-    string s;
-    getline(cin, s);
-    cout << s << endl;
-  }
-
 
   /*
   getline() is a function used to read an entire line of text from an input stream (like cin) — including spaces, until a newline (\n) is encountered.
@@ -44,4 +33,5 @@ int main(){
   getline(cin, name);  // now works properly
   
   */ 
+
 }
